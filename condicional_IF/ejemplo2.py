@@ -1,3 +1,4 @@
+import msvcrt
 #Ejemplo if anidados si gasto hasta 100 mil pago con efectivo, si gasto mas de 100 pero menos de 300 pago con debito pero! 
 #si gasto mas de 300 pago con credito.
 
@@ -11,3 +12,5 @@ elif compra > 100 and compra < 300:
     print 'pago con tarjeta de debito'
 else:
     print 'Pago con tarjeta de credito'
+
+msvcrt.getch()
