@@ -9,7 +9,6 @@ if total_compra > 100:
     importe_descuento = total_compra * tasa_descuento / 100
     importe_a_pagar = total_compra - importe_descuento
     
-    print 'Descuento adquirido! debes pagar: '
-    print importe_a_pagar
-
+    print 'Descuento adquirido! debes pagar: ', str(importe_a_pagar)
+    
 msvcrt.getch()
