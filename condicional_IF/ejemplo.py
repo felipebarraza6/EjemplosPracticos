@@ -5,18 +5,9 @@ import msvcrt
 semaforo = verde
 
 if semafoto == verde:
-  #Recordar que "==" es comprar, "=" es asignar
+  #Recordar que "==" es comparar, "=" es asignar
     print 'Cruzar la calle'
 else:
     print 'Esperar'
-
-
-
-
-
-
-
-
-
 
 msvcrt.getch()
